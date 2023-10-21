@@ -8,18 +8,20 @@
             <th>Ação</th>
             <th>Nome</th>
             <th>Email</th>
-            <th></th>
+            <th>Apagar</th>
         </tr>
     {% for aluno in alunos %}
     <tr>
         <td><a href="{% url 'aluno' id=aluno.id %}" class="btn btn-primary btn-sm">Visualizar</a></td>
         <td>{{ aluno.nome }}</td>
         <td>{{aluno.email}}</td>
+        <td><a href="{% url 'aluno id+aluno.id %'}" class="btn btn-primary btn-sm">deletar</a><td></td>
     </tr>
+
     {% endfor %}
     </table>
     {% else %}
-
+    
     <p>Sem alunos para mostrar CAI FORA</p>
 
     {% endif %}

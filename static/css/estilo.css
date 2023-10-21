@@ -1,15 +1,23 @@
 img{
     width: 200px;
-}
+    height: 200px;
+    border: 50%; 
+    overflow: hidden;
+} 
 body{
-    background-image: url(https://i.pinimg.com/1200x/7d/b1/5f/7db15f4354d84fea17d8d64494f71067.jpg);
+
+     background-image: url(https://img.freepik.com/fotos-gratis/ilustracao-de-formas-geometricas-com-luzes-de-laser-de-neon-otimo-para-fundos-e-papeis-de-parede_181624-32746.jpg?w=1060&t=st=1697888959~exp=1697889559~hmac=741f51cbe1886342896a2a2fd358132f38cc2830665bcaf114ac9751547d8127); 
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: black;
   } 
+.table {
+    background-color: white
+}
 h1{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 h3{
     text-align: center;
@@ -17,18 +25,41 @@ h3{
     color: rgb(255, 255, 255);
     background: none;
 }
-footer{
-    color: rgb(0, 0, 0);
-}
+/* footer{
+    color: rgb(255, 255, 255);
+} */
 div{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 252, 252);
     border-color: rgb(17, 0, 255);
 }
-p{
-    background-color: rgb(255, 255, 255);
-}
-.table{
-    color: blue;
+
+.logo {
+    width: 30%;
+
 }
 
+.logo img {
+    width: 50%;
+}
+
+ footer {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}  
+.conteudoFooter .logoFooter {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudoFooter .logoFooter img{
+    width: 100%;
+
+}
